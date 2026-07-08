@@ -2,7 +2,6 @@ package y7;
 
 import free.daily.tube.account_data_impl.AccountDataInitializer;
 import free.daily.tube.activation_impl.ActivationInitializer;
-import free.daily.tube.ad.adbusiness.AdBusinessInitializer;
 import free.daily.tube.background.init.VancedInitializer;
 import free.daily.tube.base_impl.BaseInitializer;
 import free.daily.tube.buried_point_impl.BuriedPointInitializer;
@@ -47,7 +46,6 @@ import free.daily.tube.module.music_detail_impl.MusicDetailInitializer;
 import free.daily.tube.module.music_detail_impl.detail.cover.LocalMediaVioletInitializer;
 import free.daily.tube.module.not_interested_impl.NotInterestedInitializer;
 import free.daily.tube.module.notification.NotificationInitializer;
-import free.daily.tube.module.operative_banner_impl.init.OperativeBannerInitializer;
 import free.daily.tube.module.play_background_impl.PlayBackgroundInitializer;
 import free.daily.tube.module.play_popup_impl.PlayPopupInitializer;
 import free.daily.tube.module.playlist_impl.PlaylistInitializer;
@@ -126,13 +124,15 @@ public class y {
         this.y.y(FissionInitializer.class);
         this.y.y(ChannelInitializer.class);
         this.y.y(SettingsInitializer.class);
-        this.y.y(AdBusinessInitializer.class);
+        // Deshabilitado: inicialización de anuncios
+        // this.y.y(AdBusinessInitializer.class);
         this.y.y(FeaturedInitializer.class);
         this.y.y(ShortsInitializer.class);
         this.y.y(BubbleInitializer.class);
         this.y.y(LiveChatInitializer.class);
         this.y.y(VideoInsertInitializer.class);
-        this.y.y(OperativeBannerInitializer.class);
+        // Deshabilitado: inicialización de banner operativo
+        // this.y.y(OperativeBannerInitializer.class);
         this.y.y(VideoDetailInitializer.class);
         this.y.y(WebViewDetailInitializer.class);
         this.y.y(DetailCommonInitializer.class);
