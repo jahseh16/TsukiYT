@@ -1,0 +1,17 @@
+package kotlinx.coroutines;
+
+import kotlin.coroutines.CoroutineContext;
+
+/* JADX INFO: loaded from: classes.dex */
+public interface CoroutineExceptionHandler extends CoroutineContext.Element {
+    public static final Key Key = Key.$$INSTANCE;
+
+    public static final class Key implements CoroutineContext.Key<CoroutineExceptionHandler> {
+        static final /* synthetic */ Key $$INSTANCE = new Key();
+
+        private Key() {
+        }
+    }
+
+    void handleException(CoroutineContext coroutineContext, Throwable th);
+}

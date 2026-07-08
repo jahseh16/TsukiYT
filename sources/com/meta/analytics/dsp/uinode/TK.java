@@ -1,0 +1,46 @@
+package com.meta.analytics.dsp.uinode;
+
+import java.util.Arrays;
+
+/* JADX INFO: loaded from: assets/audience_network.dex */
+public class TK implements PA {
+    public static byte[] A01;
+    public static String[] A02 = {"0PGepnyvQncL93SwwJBKfYdUcygiJGu5", "mA1Oa6p2jIMu30EggfbRnzpoMhUl4ssl", "uwNPSbrm", "iNgEEx1gRKfrkJTOWqECaM4K08S9ZrIg", "vqVg9oljZl3AjvyleCGqLOYkhmYrxu", "amhtUlMIP3hZuFCKepG62aSokShv2UYv", "BTFyXEOVMEP0nOw0jY0q9zOCSLZ2OeYc", "tcCWg0XVw1JTHEC59N6ZXoklrHSl9wSv"};
+    public final /* synthetic */ B0 A00;
+
+    public static String A00(int i, int i5, int i8) {
+        byte[] bArrCopyOfRange = Arrays.copyOfRange(A01, i, i + i5);
+        for (int i10 = 0; i10 < bArrCopyOfRange.length; i10++) {
+            byte b4 = (byte) ((bArrCopyOfRange[i10] ^ i8) ^ 51);
+            String[] strArr = A02;
+            if (strArr[0].charAt(0) == strArr[7].charAt(0)) {
+                throw new RuntimeException();
+            }
+            String[] strArr2 = A02;
+            strArr2[3] = "WujDwNVbN3bAuExlfya79vhQsxgnNgQM";
+            strArr2[5] = "dVRJVduTnq2Mgx4vxcEM2Hhpe9jWwRq5";
+            bArrCopyOfRange[i10] = b4;
+        }
+        return new String(bArrCopyOfRange);
+    }
+
+    public static void A01() {
+        A01 = new byte[]{91, 90, 44, 111, 126, 109, 127, 100, 105, 104, 87, 69, 66, 127, 86, 73, 69, 87};
+    }
+
+    static {
+        A01();
+    }
+
+    public TK(B0 b02) {
+        this.A00 = b02;
+    }
+
+    @Override // com.meta.analytics.dsp.uinode.PA
+    public final void ACl() {
+        C1063Ym context = AbstractC03917e.A00();
+        if (context != null) {
+            context.A07().A9a(A00(10, 8, 19), C8A.A2e, new C8B(A00(0, 10, 63)));
+        }
+    }
+}

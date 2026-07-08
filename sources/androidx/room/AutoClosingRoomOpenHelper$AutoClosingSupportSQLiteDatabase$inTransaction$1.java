@@ -1,0 +1,21 @@
+package androidx.room;
+
+import kotlin.jvm.functions.Function1;
+import kotlin.jvm.internal.FunctionReferenceImpl;
+import kotlin.jvm.internal.Intrinsics;
+import qj.s;
+
+/* JADX INFO: loaded from: classes.dex */
+public /* synthetic */ class AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase$inTransaction$1 extends FunctionReferenceImpl implements Function1<s, Boolean> {
+    public static final AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase$inTransaction$1 INSTANCE = new AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase$inTransaction$1();
+
+    public AutoClosingRoomOpenHelper$AutoClosingSupportSQLiteDatabase$inTransaction$1() {
+        super(1, s.class, "inTransaction", "inTransaction()Z", 0);
+    }
+
+    @Override // kotlin.jvm.functions.Function1
+    public final Boolean invoke(s p0) {
+        Intrinsics.checkNotNullParameter(p0, "p0");
+        return Boolean.valueOf(p0.inTransaction());
+    }
+}

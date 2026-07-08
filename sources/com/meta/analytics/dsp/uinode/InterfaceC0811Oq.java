@@ -1,0 +1,7 @@
+package com.meta.analytics.dsp.uinode;
+
+/* JADX INFO: renamed from: com.facebook.ads.redexgen.X.Oq, reason: case insensitive filesystem */
+/* JADX INFO: loaded from: assets/audience_network.dex */
+public interface InterfaceC0811Oq {
+    void AAn();
+}
