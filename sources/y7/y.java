@@ -28,7 +28,6 @@ import free.daily.tube.module.config_dialog_impl.ConfigDialogInitializer;
 import free.daily.tube.module.deeplink_impl.init.DeepLinkInitializer;
 import free.daily.tube.module.detail_common.init.DetailCommonInitializer;
 import free.daily.tube.module.encrypt.init.LocalEncryptInitializer;
-import free.daily.tube.module.fans_zone_impl.init.FansZoneInitializer;
 import free.daily.tube.module.featured_impl.init.FeaturedInitializer;
 import free.daily.tube.module.feedback_impl.FeedbackInitializer;
 import free.daily.tube.module.fission_impl.init.FissionInitializer;

@@ -5344,8 +5344,6 @@
     <public type="id" name="layoutBottom" id="0x7f0a04d5" />
     <public type="id" name="layoutChannelItemRoot" id="0x7f0a04d6" />
     <public type="id" name="layoutContent" id="0x7f0a04d7" />
-    <public type="id" name="layoutFansZoneBottomEntrance" id="0x7f0a04d8" />
-    <public type="id" name="layoutFansZoneToolbarEntrance" id="0x7f0a04d9" />
     <public type="id" name="layoutFeaturedParent" id="0x7f0a04da" />
     <public type="id" name="layoutFeedback" id="0x7f0a04db" />
     <public type="id" name="layoutFriend" id="0x7f0a04dc" />
@@ -8792,12 +8790,9 @@
     <public type="string" name="fip" id="0x7f1305cf" />
     <public type="string" name="fiz" id="0x7f1305d0" />
     <public type="string" name="fio" id="0x7f1305d1" />
-    <public type="string" name="fiw" id="0x7f1305d2" />
     <public type="string" name="fie" id="0x7f1305d3" />
     <public type="string" name="fi2" id="0x7f1305d8" />
-    <public type="string" name="fi3" id="0x7f1305d9" />
     <public type="string" name="ftj" id="0x7f1305e6" />
-    <public type="string" name="fty" id="0x7f1305e7" />
     <public type="string" name="ftu" id="0x7f1305e8" />
     <public type="string" name="ftg" id="0x7f1305e9" />
     <public type="string" name="ftl" id="0x7f1305ed" />

@@ -1604,14 +1604,12 @@ public final class R {
         public static final int fip = 0x7f0405cd;
         public static final int fiz = 0x7f0405ce;
         public static final int fio = 0x7f0405cf;
-        public static final int fiw = 0x7f0405d0;
         public static final int fie = 0x7f0405d1;
         public static final int fin = 0x7f0405d2;
         public static final int fiv = 0x7f0405d3;
         public static final int fi0 = 0x7f0405d4;
         public static final int fi1 = 0x7f0405d5;
         public static final int fi2 = 0x7f0405d6;
-        public static final int fi3 = 0x7f0405d7;
         public static final int fi4 = 0x7f0405d8;
         public static final int fi5 = 0x7f0405d9;
         public static final int fi6 = 0x7f0405da;
@@ -1625,7 +1623,6 @@ public final class R {
         public static final int ftb = 0x7f0405e2;
         public static final int ftk = 0x7f0405e3;
         public static final int ftj = 0x7f0405e4;
-        public static final int fty = 0x7f0405e5;
         public static final int ftu = 0x7f0405e6;
         public static final int ftg = 0x7f0405e7;
         public static final int fth = 0x7f0405e8;
@@ -5375,8 +5372,6 @@ public final class R {
         public static final int layoutBottom = 0x7f0a04d5;
         public static final int layoutChannelItemRoot = 0x7f0a04d6;
         public static final int layoutContent = 0x7f0a04d7;
-        public static final int layoutFansZoneBottomEntrance = 0x7f0a04d8;
-        public static final int layoutFansZoneToolbarEntrance = 0x7f0a04d9;
         public static final int layoutFeaturedParent = 0x7f0a04da;
         public static final int layoutFeedback = 0x7f0a04db;
         public static final int layoutFriend = 0x7f0a04dc;
@@ -8850,12 +8845,9 @@ public final class R {
         public static final int fip = 0x7f1305cf;
         public static final int fiz = 0x7f1305d0;
         public static final int fio = 0x7f1305d1;
-        public static final int fiw = 0x7f1305d2;
         public static final int fie = 0x7f1305d3;
         public static final int fi2 = 0x7f1305d8;
-        public static final int fi3 = 0x7f1305d9;
         public static final int ftj = 0x7f1305e6;
-        public static final int fty = 0x7f1305e7;
         public static final int ftu = 0x7f1305e8;
         public static final int ftg = 0x7f1305e9;
         public static final int ftl = 0x7f1305ed;
