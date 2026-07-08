@@ -1,0 +1,3 @@
+-dontwarn java.lang.invoke.**
+-dontwarn androidx.**
+-dontwarn com.google.**
