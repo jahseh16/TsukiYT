@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="l5">4dp</dimen>
+    <dimen name="l7">18dp</dimen>
+    <dimen name="l8">40dp</dimen>
+    <dimen name="l9">2dp</dimen>
+    <dimen name="ir">2dp</dimen>
+    <dimen name="is">40dp</dimen>
+    <dimen name="ia">40dp</dimen>
+    <dimen name="im">4dp</dimen>
+</resources>

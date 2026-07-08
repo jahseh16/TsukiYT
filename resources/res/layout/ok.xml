@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:textAppearance="?attr/fl0"
+    android:textSize="56dp"
+    android:textColor="?attr/us"
+    android:gravity="center"
+    android:layout_width="@dimen/xd"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:text="@string/fnu"
+    android:maxEms="1"
+    android:includeFontPadding="false"
+    android:lineSpacingExtra="0dp"
+    android:importantForAccessibility="no"/>

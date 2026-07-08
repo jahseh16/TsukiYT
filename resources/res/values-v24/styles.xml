@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ss" parent="@android:style/TextAppearance.Material.Widget.Button.Colored">
+    </style>
+    <style name="ld" parent="@style/lx">
+    </style>
+    <style name="lt" parent="@style/lh">
+    </style>
+    <style name="lc" parent="@style/lm">
+    </style>
+    <style name="lp" parent="@style/lq">
+    </style>
+</resources>

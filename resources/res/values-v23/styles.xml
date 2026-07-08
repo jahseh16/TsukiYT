@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="r3" parent="@android:style/TextAppearance.Material.Widget.ActionBar.Menu">
+    </style>
+    <style name="sc" parent="@style/bt">
+    </style>
+    <style name="sn" parent="@style/bm">
+    </style>
+    <style name="bt" parent="@style/bl">
+        <item name="s">?android:attr/actionBarItemBackground</item>
+        <item name="t">?android:attr/actionMenuTextAppearance</item>
+        <item name="m">?android:attr/actionMenuTextColor</item>
+        <item name="fj">?android:attr/actionOverflowButtonStyle</item>
+        <item name="g8">@drawable/r6</item>
+        <item name="fyi">?android:attr/ratingBarStyleIndicator</item>
+        <item name="fyt">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="bm" parent="@style/bi">
+        <item name="s">?android:attr/actionBarItemBackground</item>
+        <item name="t">?android:attr/actionMenuTextAppearance</item>
+        <item name="m">?android:attr/actionMenuTextColor</item>
+        <item name="fj">?android:attr/actionOverflowButtonStyle</item>
+        <item name="g8">@drawable/r6</item>
+        <item name="fyi">?android:attr/ratingBarStyleIndicator</item>
+        <item name="fyt">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="ku" parent="@android:style/Widget.Material.ActionButton.Overflow">
+    </style>
+    <style name="ki" parent="@android:style/Widget.Material.Button.Borderless.Colored">
+    </style>
+    <style name="km" parent="@android:style/Widget.Material.Button.Colored">
+        <item name="android:textAppearance">@style/ls</item>
+    </style>
+    <style name="k0" parent="@android:style/Widget.Material.EditText">
+        <item name="android:breakStrategy">0</item>
+        <item name="android:hyphenationFrequency">0</item>
+    </style>
+    <style name="jx" parent="@android:style/Widget.Material.RatingBar.Indicator">
+    </style>
+    <style name="jd" parent="@android:style/Widget.Material.RatingBar.Small">
+    </style>
+    <style name="jp" parent="@android:style/Widget.Material.TextView">
+        <item name="android:breakStrategy">1</item>
+        <item name="android:hyphenationFrequency">0</item>
+    </style>
+    <style name="yu" parent="@style/f3">
+        <item name="ka">?android:attr/colorBackgroundFloating</item>
+    </style>
+</resources>

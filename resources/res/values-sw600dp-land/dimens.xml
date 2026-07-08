@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ax">21sp</dimen>
+    <dimen name="o4">5sp</dimen>
+    <dimen name="o6">11sp</dimen>
+    <dimen name="wf">6dp</dimen>
+    <dimen name="wb">13sp</dimen>
+    <dimen name="wk">10sp</dimen>
+    <dimen name="wj">14sp</dimen>
+</resources>

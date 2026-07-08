@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="go" parent="@style/g6">
+    </style>
+    <style name="gw" parent="@style/g7">
+    </style>
+    <style name="g6" parent="@android:style/Theme.Material.NoActionBar">
+    </style>
+    <style name="g7" parent="@android:style/Theme.Material.Light.NoActionBar">
+    </style>
+</resources>

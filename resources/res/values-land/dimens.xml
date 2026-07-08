@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="s">48dp</dimen>
+    <dimen name="sv">120dp</dimen>
+    <dimen name="s1">80dp</dimen>
+    <dimen name="ax">18sp</dimen>
+    <dimen name="bc">8dp</dimen>
+    <dimen name="dy">450dp</dimen>
+    <dimen name="du">600dp</dimen>
+    <dimen name="ia">20dp</dimen>
+    <dimen name="ik">4dp</dimen>
+    <dimen name="ig">96dp</dimen>
+    <dimen name="id">0dp</dimen>
+    <dimen name="il">0dp</dimen>
+    <dimen name="ii">104dp</dimen>
+    <dimen name="iw">68dp</dimen>
+    <dimen name="iv">64dp</dimen>
+    <dimen name="i1">24dp</dimen>
+    <dimen name="i2">32dp</dimen>
+    <dimen name="ov">14sp</dimen>
+    <dimen name="o0">4dp</dimen>
+    <dimen name="o1">20sp</dimen>
+    <dimen name="o2">16sp</dimen>
+    <dimen name="o3">42dp</dimen>
+    <dimen name="o4">7sp</dimen>
+    <dimen name="o6">12sp</dimen>
+    <dimen name="wf">10dp</dimen>
+    <dimen name="wr">4dp</dimen>
+    <dimen name="wb">13sp</dimen>
+    <dimen name="wk">10sp</dimen>
+    <dimen name="wj">16sp</dimen>
+</resources>

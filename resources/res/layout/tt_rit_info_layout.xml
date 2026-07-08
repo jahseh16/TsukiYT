@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/tt_mediation_card_bg"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="4dp">
+        <TextView
+            android:textSize="13sp"
+            android:textColor="@color/tt_color_999"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ad Unit detail info"/>
+        <TextView
+            android:textSize="14sp"
+            android:textColor="@color/tt_color_333"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Ad Unit Id"/>
+        <TextView
+            android:textSize="13sp"
+            android:textColor="@color/tt_color_666"
+            android:id="@+id/rit_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textIsSelectable="true"/>
+        <TextView
+            android:textSize="14sp"
+            android:textColor="@color/tt_color_333"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="Ad Unit type"/>
+        <TextView
+            android:textSize="13sp"
+            android:textColor="@color/tt_color_666"
+            android:id="@+id/ad_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"/>
+    </LinearLayout>
+    <RelativeLayout
+        android:background="@drawable/tt_mediation_card_bg"
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp">
+        <FrameLayout
+            android:id="@+id/container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:text="You haven&apos;t loaded any ads yet"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:textSize="13sp"
+            android:textColor="@color/tt_color_999"
+            android:id="@+id/ad_load_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="After clicking load, each ad placement ID will be loaded independently in sequence"
+            android:layout_below="@+id/container"
+            android:layout_centerHorizontal="true"/>
+        <Button
+            android:textSize="14sp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:id="@+id/ad_load_btn"
+            android:background="@drawable/tt_ad_load_btn_bg_shape"
+            android:layout_width="120dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="2dp"
+            android:text="Load Ad"
+            android:layout_below="@+id/ad_load_desc"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</LinearLayout>

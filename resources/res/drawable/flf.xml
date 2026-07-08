@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item>
+        <bitmap
+            android:src="@drawable/fup"
+            android:filter="false"
+            android:tileMode="disabled"/>
+    </item>
+    <item android:gravity="end|bottom">
+        <bitmap
+            android:src="@drawable/fuq"
+            android:filter="false"
+            android:tileMode="disabled"/>
+    </item>
+</layer-list>

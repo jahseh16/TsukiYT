@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="sc" parent="@style/bw">
+    </style>
+    <style name="sn" parent="@style/be">
+    </style>
+    <style name="bw" parent="@style/bc">
+        <item name="xp">?android:attr/dialogCornerRadius</item>
+    </style>
+    <style name="be" parent="@style/bq">
+        <item name="xp">?android:attr/dialogCornerRadius</item>
+    </style>
+    <style name="tt_app_open_ad_no_animation" parent="@android:style/Theme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowAnimationStyle">@style/tt_animation</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">2</item>
+    </style>
+</resources>

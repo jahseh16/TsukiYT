@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="gp" parent="@style/tr">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">1</item>
+        <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
+    </style>
+    <style name="gz" parent="@style/tr">
+        <item name="android:windowBackground">@drawable/flf</item>
+        <item name="android:windowDisablePreview">false</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowOptOutEdgeToEdgeEnforcement">true</item>
+        <item name="yj">@android:color/transparent</item>
+        <item name="uk">@android:color/transparent</item>
+        <item name="ug">@android:color/transparent</item>
+    </style>
+</resources>

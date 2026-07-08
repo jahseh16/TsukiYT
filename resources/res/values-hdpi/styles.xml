@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ke" parent="@style/kn">
+        <item name="s9">18.66dp</item>
+        <item name="dj">24dp</item>
+        <item name="tf">3.33dp</item>
+    </style>
+</resources>

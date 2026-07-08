@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="sc" parent="@style/bl">
+    </style>
+    <style name="sn" parent="@style/bi">
+    </style>
+    <style name="bl" parent="@style/ba">
+        <item name="fr">?android:attr/actionModeShareDrawable</item>
+        <item name="dm">?android:attr/editTextBackground</item>
+    </style>
+    <style name="bi" parent="@style/bk">
+        <item name="fr">?android:attr/actionModeShareDrawable</item>
+        <item name="dm">?android:attr/editTextBackground</item>
+    </style>
+    <style name="qj" parent="@style/xc">
+        <item name="android:statusBarColor">@color/zv</item>
+    </style>
+</resources>

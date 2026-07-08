@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ye" parent="@android:style/Widget.EditText">
+        <item name="android:gravity">0x15</item>
+        <item name="android:textDirection">4</item>
+        <item name="android:textAlignment">5</item>
+    </style>
+    <style name="it" parent="@android:style/Widget.TextView">
+        <item name="android:textDirection">4</item>
+    </style>
+    <style name="vf" parent="@style/ye">
+        <item name="android:gravity">0x5</item>
+    </style>
+    <style name="vu" parent="@style/ye">
+        <item name="android:gravity">0x15</item>
+        <item name="android:paddingLeft">28dp</item>
+        <item name="android:paddingRight">8dp</item>
+    </style>
+</resources>

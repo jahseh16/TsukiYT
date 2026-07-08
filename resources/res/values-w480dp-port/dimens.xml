@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="l5">0dp</dimen>
+    <dimen name="l7">22dp</dimen>
+    <dimen name="l8">48dp</dimen>
+    <dimen name="is">48dp</dimen>
+    <dimen name="ia">48dp</dimen>
+    <dimen name="im">0dp</dimen>
+</resources>

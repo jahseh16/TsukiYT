@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:id="@+id/month_navigation_bar"
+    android:paddingTop="@dimen/iz"
+    android:paddingBottom="@dimen/iq"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <com.google.android.material.button.MaterialButton
+            android:gravity="start|center_vertical"
+            android:layout_gravity="start"
+            android:id="@+id/month_navigation_fragment_toggle"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/ip"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            app:icon="@drawable/fgg"
+            app:iconGravity="0x4"
+            app:iconPadding="4dp"
+            style="?attr/fsi"/>
+    </FrameLayout>
+    <com.google.android.material.button.MaterialButton
+        android:gravity="center"
+        android:id="@+id/month_navigation_previous"
+        android:layout_width="@dimen/mb"
+        android:layout_height="@dimen/ip"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:contentDescription="@string/fvn"
+        app:icon="@drawable/fgy"
+        style="?attr/fsx"/>
+    <com.google.android.material.button.MaterialButton
+        android:gravity="center"
+        android:id="@+id/month_navigation_next"
+        android:layout_width="@dimen/mb"
+        android:layout_height="@dimen/ip"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:contentDescription="@string/fve"
+        app:icon="@drawable/fgj"
+        style="?attr/fsx"/>
+</LinearLayout>

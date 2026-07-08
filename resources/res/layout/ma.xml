@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:background="?attr/ffa"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:visibility="gone"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:paddingStart="14dp"
+    android:paddingEnd="14dp"
+    android:translationZ="6dp">
+    <TextView
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="?attr/v8"
+        android:gravity="center"
+        android:id="@+id/actionDeleteBtn"
+        android:background="?attr/v5"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="@string/fwu"
+        android:layout_weight="1"/>
+    <TextView
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="?attr/v7"
+        android:gravity="center"
+        android:id="@+id/actionAddPlaylistBtn"
+        android:background="?attr/v6"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:text="@string/foc"
+        android:layout_weight="1"
+        android:layout_marginStart="16dp"/>
+</LinearLayout>

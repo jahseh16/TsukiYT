@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="f2" parent="@style/bz">
+    </style>
+    <style name="f4" parent="@style/bo">
+    </style>
+    <style name="bz" parent="@style/b1">
+        <item name="android:navigationBarColor">@android:color/black</item>
+    </style>
+    <style name="bo" parent="@style/b2">
+        <item name="android:navigationBarColor">@color/gb</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+    <style name="gp" parent="@style/tr">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLayoutInDisplayCutoutMode">1</item>
+    </style>
+</resources>
